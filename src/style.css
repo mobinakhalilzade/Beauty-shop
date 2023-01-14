@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl font-extrabold mb-2;
+  }
+
+  h2 {
+    @apply text-3xl font-bold mb-2;
+  }
+
+  h3 {
+    @apply text-2xl font-semibold mb-2;
+  }
+
+  h4 {
+    @apply text-xl font-medium mb-2;
+  }
+
+  h5 {
+    @apply text-lg font-normal mb-2;
+  }
+
+  h6 {
+    @apply text-base font-light mb-2;
+  }
+
+  p {
+    @apply text-base font-normal mb-2;
+  }
+
+  label {
+    @apply text-base font-semibold;
+  }
+
+  caption {
+    @apply text-xs font-extralight;
+  }
+
+  a{
+    @apply text-lg font-medium hover:text-darkPink;
+  }
+
+  button {
+    @apply w-full p-2 rounded-lg text-lg font-medium text-center cursor-pointer;
+  }
+
+  input {
+    @apply w-full p-4 mt-2 bg-white border-none rounded-lg text-sm placeholder:text-mute focus:outline-none focus:border-pink focus:ring-1 focus:ring-pink;
+  }
+
+  textarea {
+    @apply w-full p-4 mt-2 bg-white border-none rounded-lg placeholder:text-mute focus:outline-none focus:border-pink focus:ring-1 focus:ring-pink;
+  }
+
+  input,
+  textarea {
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-family: "Quicksand";
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #e31b6d;
+  outline: 3px solid #e31b6d;
+  border-radius: 20px;
+}
+ */
