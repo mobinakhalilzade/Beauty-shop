@@ -48,11 +48,11 @@
   }
 
   input {
-    @apply w-full p-4 mt-2 bg-white border-none rounded-lg text-sm placeholder:text-mute focus:outline-none focus:border-pink focus:ring-1 focus:ring-pink;
+    @apply w-full p-4 mt-2 bg-white text-pink border border-pink rounded-lg text-sm placeholder:text-mute focus:outline-none focus:border-pink focus:ring-1 focus:ring-pink;
   }
 
   textarea {
-    @apply w-full p-4 mt-2 bg-white border-none rounded-lg placeholder:text-mute focus:outline-none focus:border-pink focus:ring-1 focus:ring-pink;
+    @apply w-full p-4 mt-2 bg-white border border-pink rounded-lg placeholder:text-mute focus:outline-none focus:border-pink focus:ring-1 focus:ring-pink;
   }
 
   input,
@@ -85,17 +85,9 @@ body {
   user-select: none;
 }
 
-/* body::-webkit-scrollbar {
-  width: 0.5em;
+ .text-truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
-
-body::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #e31b6d;
-  outline: 3px solid #e31b6d;
-  border-radius: 20px;
-}
- */

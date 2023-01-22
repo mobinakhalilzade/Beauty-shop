@@ -18,19 +18,21 @@
   <body>
     <header class="flex justify-between bg-pink px-20 py-12">
       <div class="flex justify-center">
-        <h5><i class="fa-solid fa-clover fa-2xl"></i> PrettyPink</h5>
+        <h3><i class="fa-solid fa-clover fa-2xl"></i> PrettyPink</h3>
       </div>
       <nav class="flex justify-between gap-6">
         <a href="index.html">Home</a>
-        <a href="product.html">Products</a>
-        <a href="blog.html">Blog</a>
+        <a href="products.html">Products</a>
+        <!-- <a href="blog.html">Blog</a> -->
         <a href="#">About us</a>
         <a href="contact.html">Contact us</a>
       </nav>
       <div class="flex justify-center gap-5 text-white">
-        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
-        <i class="fa-regular fa-user fa-2x"></i>
-        <i class="fa-solid fa-bag-shopping fa-2x"></i>
+        <a><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+        <a href="login.html"><i class="fa-regular fa-user fa-2x"></i></a>
+        <a>
+          <i class="fa-solid fa-bag-shopping fa-2x"></i>
+        </a>
       </div>
     </header>
     <main>
@@ -49,7 +51,7 @@
         />
       </div>
       <div class="text-black px-20 m-10">
-        <h2 class="text-center my-5">About PrettyPink</h2>
+        <h2 class="text-center text-pink my-5">About PrettyPink</h2>
         <p>
           Welcome to PrettyPink, a beauty company dedicated to providing
           high-quality, affordable products that help you look and feel your
@@ -120,10 +122,12 @@
     <footer class="bg-pink text-white py-10">
       <div class="flex justify-around bg-pink text-white py-10">
         <div class="basis-1/4">
-          <div class="flex justify-center">
-            <h3><i class="fa-solid fa-clover fa-2xl"></i> PrettyPink</h3>
+          <div class="flex">
+            <a href="index.html">
+              <h3><i class="fa-solid fa-clover fa-2xl"></i> PrettyPink</h3>
+            </a>
           </div>
-          <label>Simplicity is beauty, beauty in pink</label>
+          <label class="my-5">Simplicity is beauty, beauty in pink</label>
           <p>
             Simplicity is beauty. Discover the essence of true beauty with our
             minimalistic approach to skincare and makeup.
@@ -132,9 +136,13 @@
         <div>
           <h3>ABOUT</h3>
           <ul>
-            <li>Meet Us</li>
-            <li>About Us</li>
-            <li>Careeres</li>
+            <li>
+              <a href="contact.html"> Meet Us </a>
+            </li>
+            <li>
+              <a href="about.html"> About Us </a>
+            </li>
+            <li><a href="about.html"> Products </a></li>
           </ul>
         </div>
         <div>
@@ -142,7 +150,9 @@
           <ul>
             <li>Privacy and Policy</li>
             <li>Terms and Condition</li>
-            <li>Contact Us</li>
+            <li>
+              <a href="contact.html"> Contact Us </a>
+              </li>
             <li>FAQs</li>
           </ul>
         </div>
@@ -155,7 +165,7 @@
           </ul>
         </div>
       </div>
-      <form class="ml-10" action="POST">
+      <form class="mx-20" action="POST">
         <h4>Stay in Touch</h4>
         <div class="flex justify-start">
           <input

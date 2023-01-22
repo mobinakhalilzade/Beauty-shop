@@ -22,71 +22,21 @@
       </div>
       <nav class="flex justify-between gap-6">
         <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
+        <a href="#">Products</a>
         <!-- <a href="blog.html">Blog</a> -->
         <a href="about.html">About us</a>
-        <a href="#">Contact us</a>
+        <a href="contact.html">Contact us</a>
       </nav>
       <div class="flex justify-center gap-5 text-white">
-        <a><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
         <a href="login.html"><i class="fa-regular fa-user fa-2x"></i></a>
-        <a>
-          <i class="fa-solid fa-bag-shopping fa-2x"></i>
-        </a>
+        <i class="fa-solid fa-bag-shopping fa-2x"></i>
       </div>
     </header>
     <main>
-      <div class="flex justify-around bg-pink px-10">
-        <div class="self-center">
-          <h1>Contact us,</h1>
-          <h1>We Create Beauty in Joy,</h1>
-          <p>Everything is Here For Your Beauty Needs</p>
-        </div>
-        <img
-          width="600"
-          height="400"
-          class="self-start"
-          src="../assets/images/contact.png"
-          alt="PrettyPink Landing Image"
-        />
-      </div>
-      <section class="my-10">
-        <h2 class="my-5 text-pink text-center">Contact Us</h2>
-        <div class="flex justify-around my-10">
-          <div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.31564747053!2d-74.26055584200296!3d40.69714774828279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2str!4v1674117075891!5m2!1sen!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <a href="#" type="tel" class="text-pink text-4xl my-10 p-10">
-              <h3><i class="fa-solid fa-phone-volume"></i>
-                Call Us : 123456789</h3>
-            </a>
-          </div>
-         
-          <form class="border border-pink p-10 rounded-md">
-            <h3 class="text-pink text-center">Tell Us</h3>
-            <div class="my-4">
-              <label for="name" class="text-pink">Name</label>
-              <input type="text" name="name" placeholder="Enter your Name" />
-            </div>
-            <div class="my-4">
-              <label for="email" class="text-pink">Email</label>
-              <input type="email" name="email" placeholder="Enter your Email" />
-            </div>
-            <div class="my-4">
-              <label for="message" class="text-pink">Your message</label>
-              <textarea
-                type="text"
-                name="message"
-                placeholder="Enter your message"
-              ></textarea>
-            </div>
-            <button id="contactus-form" type="button" class="bg-pink text-white my-4">
-              Send Message
-            </button>
-          </form>
-        </div>
-      </section>
       <section>
-       
+        <h2 class="mt-10 text-center text-pink">Products</h2>
+        <div id="products" class="grid grid-cols-4 gap-4 mx-20 my-10"></div>
       </section>
     </main>
     <footer class="bg-pink text-white py-10">
@@ -155,5 +105,5 @@
       </form>
     </footer>
   </body>
-  <script src="app.js"></script>
+  <script src="products.js"></script>
 </html>

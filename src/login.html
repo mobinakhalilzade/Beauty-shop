@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login PrettyPink</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body class="bg-pink">
+    <section class="w-1/2 h-[100vh] flex justify-center mx-auto">
+      <div
+        class="self-center w-full h-3/4 bg-white shadow-lg border border-darkPink rounded-lg"
+      >
+        <div class="mx-5 my-10">
+          <div class="flex justify-center text-pink">
+            <a href="index.html">
+            <h1><i class="fa-solid fa-clover fa-2xl"></i> PrettyPink</h1>
+          </a>
+            
+          </div>
+          <form class="p-8">
+            <div class="my-4">
+              <label for="username" class="text-pink">Username</label>
+              <input
+                type="text"
+                name="username"
+                placeholder="Enter your Username"
+              />
+            </div>
+            <div class="my-4">
+              <label for="password" class="text-pink">Password</label>
+              <input
+                type="password"
+                name="password"
+                placeholder="Enter your Password"
+              />
+            </div>
+            <button id="login" type="button" class="bg-pink text-white my-4">
+              Login
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="login.js"></script>
+</html>
